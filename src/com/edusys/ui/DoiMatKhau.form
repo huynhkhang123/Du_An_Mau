@@ -29,30 +29,11 @@
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
           <Group type="102" attributes="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="txtMKMoi" min="-2" pref="367" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
-                              <Component id="txtXacNhanMKMoi" min="-2" pref="367" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" attributes="0">
-                              <Component id="txtTenDN" min="-2" pref="372" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
-                              <Component id="txtMK" min="-2" pref="367" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="261" max="-2" attributes="0"/>
-                      <Component id="btnDongY" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="275" max="-2" attributes="0"/>
-                      <Component id="btnHuyBo" min="-2" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace pref="323" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="261" max="-2" attributes="0"/>
+              <Component id="btnDongY" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="275" max="-2" attributes="0"/>
+              <Component id="btnHuyBo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="494" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -60,29 +41,12 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <Component id="jLabel1" min="-2" pref="84" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtTenDN" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
-                          <Component id="txtMK" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtXacNhanMKMoi" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
-                          <Component id="txtMKMoi" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="347" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="btnDongY" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnHuyBo" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="272" max="-2" attributes="0"/>
-                  </Group>
+              <EmptySpace pref="347" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnDongY" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnHuyBo" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
+              <EmptySpace min="-2" pref="272" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -117,53 +81,6 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHuyBoActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="com.edusys.textfield.PasswordField" name="txtXacNhanMKMoi">
-      <Properties>
-        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="33" type="rgb"/>
-        </Property>
-        <Property name="labelText" type="java.lang.String" value="X&#xe1;c nh&#x1ead;n m&#x1ead;t kh&#x1ea9;u m&#x1edb;i"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtXacNhanMKMoiActionPerformed"/>
-        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtXacNhanMKMoiKeyReleased"/>
-      </Events>
-    </Component>
-    <Component class="com.edusys.textfield.TextField" name="txtTenDN">
-      <Properties>
-        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="33" type="rgb"/>
-        </Property>
-        <Property name="labelText" type="java.lang.String" value="T&#xea;n &#x111;&#x103;ng nh&#x1ead;p"/>
-      </Properties>
-      <Events>
-        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtTenDNKeyReleased"/>
-      </Events>
-    </Component>
-    <Component class="com.edusys.textfield.PasswordField" name="txtMK">
-      <Properties>
-        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="33" type="rgb"/>
-        </Property>
-        <Property name="labelText" type="java.lang.String" value="M&#x1ead;t kh&#x1ea9;u hi&#x1ec7;n t&#x1ea1;i"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMKActionPerformed"/>
-        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtMKKeyReleased"/>
-      </Events>
-    </Component>
-    <Component class="com.edusys.textfield.PasswordField" name="txtMKMoi">
-      <Properties>
-        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="33" type="rgb"/>
-        </Property>
-        <Property name="labelText" type="java.lang.String" value="M&#x1ead;t kh&#x1ea9;u m&#x1edb;i"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMKMoiActionPerformed"/>
-        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtMKMoiKeyReleased"/>
       </Events>
     </Component>
   </SubComponents>
