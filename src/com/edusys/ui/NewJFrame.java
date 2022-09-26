@@ -10,7 +10,7 @@ package com.edusys.ui;
  * @author Tran Thi Hong Tham
  */
 public class NewJFrame extends javax.swing.JFrame {
-
+    String tham;
     /**
      * Creates new form NewJFrame
      */
