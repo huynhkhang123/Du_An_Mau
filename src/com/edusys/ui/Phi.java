@@ -10,5 +10,5 @@ package com.edusys.ui;
  * @author HP
  */
 public class Phi {
-    String Phi;
+    String PhiMoi;
 }
