@@ -10,5 +10,5 @@ package com.edusys.ui;
  * @author ADMIN
  */
 public class khang {
-    
+    String test2;
 }
