@@ -11,4 +11,5 @@ package com.edusys.ui;
  */
 public class Phi {
     String PhiMoi;
+    String test
 }
