@@ -10,5 +10,5 @@ package com.edusys.ui;
  * @author admin
  */
 public class Cuong {
-    
+    String cuong;
 }
